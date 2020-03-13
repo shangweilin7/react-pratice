@@ -65,7 +65,7 @@ function Header(props) {
                     <input name="utf8" type="hidden" value="✓" />
                     <input placeholder="請輸入關鍵字..." className="input-search" type="search" name="q[title_or_excerpt_cont]" id="q_title_or_excerpt_cont"/>
                     <input type="submit" name="commit" value="搜尋" className="go-search-btn" data-disable-with="搜尋" />
-                  </form>    
+                  </form>
                 </div>
               </div>
             </div>
@@ -80,52 +80,24 @@ function Header(props) {
           <div className="main-nav">
             <ul>
               <li><a href="/">首頁</a></li>
-              <li>
-                <a href="/channels/new">新品總覽</a>
-              </li>
-              <li>
-                <a href="/channels/tech_trends">科技趨勢</a>
-              </li>
+              <li><a href="/channels/new">新品總覽</a></li>
+              <li><a href="/channels/tech_trends">科技趨勢</a></li>
             </ul>
           </div>
           <div className="categories-list">
             <ul>
-              <li>
-                <a href="/channels/phone_pad">手機 / 平板 / 行動周邊</a>
-              </li>
-              <li>
-                <a href="/channels/computer_laptop">桌機 / 筆電</a>
-              </li>
-              <li>
-                <a href="/channels/wearable">手錶 / 手環</a>
-              </li>
-              <li>
-                <a href="/channels/mouse_keyboard">鍵盤 / 滑鼠</a>
-              </li>
-              <li>
-                <a href="/channels/headphone">耳機 / 喇叭 / 音響</a>
-              </li>
-              <li>
-                <a href="/channels/camera">相機 / 運動攝影機 / 無人機</a>
-              </li>
-              <li>
-                <a href="/channels/component">板卡 / 零組件</a>
-              </li>
-              <li>
-                <a href="/channels/nas_storage">NAS / 儲存裝置</a>
-              </li>
-              <li>
-                <a href="/channels/network">路由器 / 智慧家居設備</a>
-              </li>
-              <li>
-                <a href="/channels/monitor">投影機 / 顯示器</a>
-              </li>
-              <li>
-                <a href="/channels/printer">印表機 / 掃瞄器</a>
-              </li>
-              <li>
-                <a href="/channels/tv">電視 / 電視盒</a>
-              </li>
+              <li><a href="/channels/phone_pad">手機 / 平板 / 行動周邊</a></li>
+              <li><a href="/channels/computer_laptop">桌機 / 筆電</a></li>
+              <li><a href="/channels/wearable">手錶 / 手環</a></li>
+              <li><a href="/channels/mouse_keyboard">鍵盤 / 滑鼠</a></li>
+              <li><a href="/channels/headphone">耳機 / 喇叭 / 音響</a></li>
+              <li><a href="/channels/camera">相機 / 運動攝影機 / 無人機</a></li>
+              <li><a href="/channels/component">板卡 / 零組件</a></li>
+              <li><a href="/channels/nas_storage">NAS / 儲存裝置</a></li>
+              <li><a href="/channels/network">路由器 / 智慧家居設備</a></li>
+              <li><a href="/channels/monitor">投影機 / 顯示器</a></li>
+              <li><a href="/channels/printer">印表機 / 掃瞄器</a></li>
+              <li><a href="/channels/tv">電視 / 電視盒</a></li>
             </ul>
           </div>
         </div>
@@ -154,55 +126,27 @@ function SlideNavWrapper(props) {
       <nav className="main-nav">
         <ul className="nav_list">
           <li><a href="/">首頁</a></li>
-            <li>
-              <a href="/channels/new">新品總覽</a>
-            </li>
-            <li>
-              <a href="/channels/tech_trends">科技趨勢</a>
-            </li>
-            <li>
-              <a href="/channels/phone_pad">手機 / 平板 / 行動周邊</a>
-            </li>
-            <li>
-              <a href="/channels/computer_laptop">桌機 / 筆電</a>
-            </li>
-            <li>
-              <a href="/channels/wearable">手錶 / 手環</a>
-            </li>
-            <li>
-              <a href="/channels/mouse_keyboard">鍵盤 / 滑鼠</a>
-            </li>
-            <li>
-              <a href="/channels/headphone">耳機 / 喇叭 / 音響</a>
-            </li>
-            <li>
-              <a href="/channels/camera">相機 / 運動攝影機 / 無人機</a>
-            </li>
-            <li>
-              <a href="/channels/component">板卡 / 零組件</a>
-            </li>
-            <li>
-              <a href="/channels/nas_storage">NAS / 儲存裝置</a>
-            </li>
-            <li>
-              <a href="/channels/network">路由器 / 智慧家居設備</a>
-            </li>
-            <li>
-              <a href="/channels/monitor">投影機 / 顯示器</a>
-            </li>
-            <li>
-              <a href="/channels/printer">印表機 / 掃瞄器</a>
-            </li>
-            <li>
-              <a href="/channels/tv">電視 / 電視盒</a>
-            </li>
+          <li><a href="/channels/new">新品總覽</a></li>
+          <li><a href="/channels/tech_trends">科技趨勢</a></li>
+          <li><a href="/channels/phone_pad">手機 / 平板 / 行動周邊</a></li>
+          <li><a href="/channels/computer_laptop">桌機 / 筆電</a></li>
+          <li><a href="/channels/wearable">手錶 / 手環</a></li>
+          <li><a href="/channels/mouse_keyboard">鍵盤 / 滑鼠</a></li>
+          <li><a href="/channels/headphone">耳機 / 喇叭 / 音響</a></li>
+          <li><a href="/channels/camera">相機 / 運動攝影機 / 無人機</a></li>
+          <li><a href="/channels/component">板卡 / 零組件</a></li>
+          <li><a href="/channels/nas_storage">NAS / 儲存裝置</a></li>
+          <li><a href="/channels/network">路由器 / 智慧家居設備</a></li>
+          <li><a href="/channels/monitor">投影機 / 顯示器</a></li>
+          <li><a href="/channels/printer">印表機 / 掃瞄器</a></li>
+          <li><a href="/channels/tv">電視 / 電視盒</a></li>
         </ul>
         <div className="social-media">
           <ul>
             <li><a className="facebook-icon" target="_blank" href="https://www.facebook.com/TKbang">facebook</a></li>
             <li><a className="line-icon" target="_blank" href="https://line.me/R/ti/p/%40mmx9155h">line</a></li>
             <li><a className="youtube-icon" target="_blank" href="https://www.youtube.com/channel/UC9IyDJ6vlG50iYjXGQpwwOQ">youtube</a></li>
-          </ul> 
+          </ul>
         </div>
       </nav>
     </div>
